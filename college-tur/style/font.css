@@ -1,0 +1,13 @@
+@font-face {
+    font-family: merriwet_bold;
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: merriwet_regular;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: merriwet_Light;
+    src: url(../fonts/Merriweather-Light.ttf);
+}

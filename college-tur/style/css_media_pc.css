@@ -1,0 +1,207 @@
+@font-face {
+    font-family: merriwet_bold;
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: merriwet_regular;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@media screen and (min-width: 1420px) and (max-width: 1920px) {
+    body {
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container_1 {
+        height: auto;
+        min-height: 800px;
+        min-height: 1200px;
+    }
+
+    #border_main_txt_1 {
+        display: flex;
+        font-family: merriwet_bold;
+        color: #838287;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    #border_main_txt_1_in_1 {
+        margin-left: 30px;
+        margin-right: 500px;
+    }
+
+    #border_main {
+        position: absolute;
+        z-index: -1;
+        left: 380px;
+        top: 30px;
+        width: 90%;
+    }
+
+    #orange_border {
+        border: 7px solid #f8a83d;
+        border-radius: 5px;
+        height: 440px;
+        width: 80%;
+    }
+
+    
+    main {
+        position: fixed;
+        background-color: #121121;
+        width: 100%;
+    }
+
+    #main_info {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        height: 700px;
+    }
+
+
+
+    #main_img {
+        -webkit-box-shadow: 1px 12px 73px 37px rgba(18, 17, 33, 0.66) inset;
+        -moz-box-shadow: 1px 12px 73px 37px rgba(18, 17, 33, 0.66) inset;
+        box-shadow: 1px 12px 73px 37px rgba(18, 17, 33, 0.66) inset;
+        /* filter: brightness(60%); */
+        width: 90%;
+        height: 90%;
+        background-size: cover;
+    }
+
+    .main_img_flex {
+        display: flex;
+        align-items: center;
+    }
+
+    #main_img_txt_1 {
+        width: 40%;
+    }
+
+    #main_img_txt_2 {
+        width: 15%;
+        margin-left: 200px;
+        background: rgba(154, 136, 124,0.3);
+        background: linear-gradient(180deg, rgba(154, 136, 124, 0.4) 15%, rgba(44, 43, 57, 0.6) 70%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        color: #b5b5b5;
+        font-family: merriwet_regular;
+        font-size: 13px;
+        /* -webkit-box-shadow: 0px 5px 43px 26px rgba(44, 43, 57, 0.44);
+        -moz-box-shadow: 0px 5px 43px 26px rgba(44, 43, 57, 0.44);
+        box-shadow: 0px 5px 43px 26px rgba(44, 43, 57, 0.44); */
+        -webkit-box-shadow: 0px 5px 43px 14px rgba(44, 43, 57, 0.51);
+        -moz-box-shadow: 0px 5px 43px 14px rgba(44, 43, 57, 0.51);
+        box-shadow: 0px 5px 43px 14px rgba(44, 43, 57, 0.51);
+        border-radius: 10px;
+    }
+
+    .line {
+        width: 15px;
+        height: 1px;
+        background-color: white;
+        margin-right: 3px;
+    }
+
+    .main_img_txt_2_flex {
+        display: flex;
+        align-items: center;
+    }
+
+    #main_img_txt_1_in_1 {
+        font-family: merriwet_bold;
+        color: #ffc79e;
+        font-size: 60px;
+    }
+
+    #main_img_filter {
+        background-color: rgba(18, 17, 33, 0.4);
+        height: 100%;
+    }
+
+    #main_img_in {
+        padding-top: 150px;
+        display: flex;
+        margin-left: 60px;
+    }
+
+    #main_img_txt_1_in_2 {
+        font-family: merriwet_regular;
+        color: #cfcfcf;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #img_icon_1 {
+        margin-left: 10px;
+        margin-right: 8px;
+        background-image: url(../img/icons8-left-12.png);
+        background-size: cover;
+        height: 9px;
+        width: 9px;
+    }
+
+    #img_icon_2 {
+        margin-left: 1px;
+        background-image: url(../img/icons8-right-12.png);
+        background-size: cover;
+        height: 9px;
+        width: 9px;
+    }
+
+    #main_img_flex_lines {
+        margin: 0px 10px;
+    }
+
+    .main_img_flex_line {
+        width: 50px;
+        background-color: #cfcfcf;
+        height: 1px;
+    }
+
+    #main_img_txt_1_in_3 {
+        font-family: merriwet_regular;
+        font-size: 14px;
+        color: #f8a83d;
+        margin-top: 30px;
+    }
+
+    #blur_main {
+        position: fixed;
+        top: 650px;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #blur {
+        background: rgb(18, 17, 33, 0.95);
+        filter: blur(10px);
+        width: 100%;
+        height: 100%;
+    }
+    .slider {
+        position: fixed;
+        z-index: -1;
+        max-width: 90%;
+        margin: 0px auto;
+        overflow: hidden;
+        height: 600px;
+    }
+    .slider-line {
+        display: flex;
+        transform: all ease 1s;
+    }
+}
+
+

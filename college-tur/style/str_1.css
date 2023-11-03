@@ -1,0 +1,290 @@
+@media screen and (min-width: 1420px) and (max-width: 1920px) {
+    body {
+        margin: 0px;
+        height: auto;
+        max-width: 100%;
+        background-color: #121121;
+        /* padding: 30px 150px; */
+    }
+
+    #header_container_1 {
+        position: relative;
+        z-index: 1;
+        background-image: url(../img/kazakh.jpg);
+        background-size: cover;
+        height: 700px;
+        max-height: 700px;
+    }
+
+    #header_opacity {
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(18, 17, 33, 0.4);
+        width: 100%;
+        height: 710px;
+    }
+
+    nav {
+        margin: 30px 120px;
+        font-family: merriwet_Light;
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        /* background-color: #5f5f6b; */
+    }
+
+    #nav_flex_2 {
+        font-family: merriwet_regular;
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #cfcfcf;
+    }
+
+    #nav_flex_1 a {
+        color: #f8a83d;
+        text-decoration: none;
+    }
+
+    #blur_main {
+        -webkit-box-shadow: 0px 17px 30px 48px rgba(18, 17, 33, 0.56);
+        -moz-box-shadow: 0px 17px 30px 48px rgba(18, 17, 33, 0.56);
+        box-shadow: 0px 17px 30px 48px rgba(18, 17, 33, 0.56);
+        position: absolute;
+        overflow: hidden;
+        z-index: 3;
+        top: 650px;
+        width: 100%;
+        height: 90px;
+    }
+
+    #blur {
+        margin-left: -20px;
+        background-color: rgba(18, 17, 33, 1);
+        filter: blur(20px);
+        width: 130%;
+        height: 100%;
+    }
+
+    #header_container_1_txt_1 {
+        font-family: merriwet_bold;
+        color: #ffc79e;
+        font-size: 60px;
+    }
+
+    #header_container_1_txt_2 {
+        font-family: merriwet_regular;
+        color: #cfcfcf;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #header_container_1_in_1 {
+        margin: 100px 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #header_container_1_in_1_in_1 {
+        width: 30%;
+        height: 400px;
+    }
+
+    #header_container_1_in_1_in_2 {
+        width: 40%;
+    }
+
+    #header_container_1_in_1_in_2 img {
+        filter: brightness(90%);
+        width: 100%;
+        height: auto;
+    }
+
+    #header_container_1_txt_3 {
+        font-family: merriwet_regular;
+        margin-top: 20px;
+        color: #cfcfcf;
+        font-size: 14px;
+    }
+
+    /* main------------------------------------- */
+    main {
+        margin: 120px 120px;
+        margin-bottom: 60px;
+        max-width: 100%;
+        height: auto;
+        -webkit-box-shadow: 0px 70px 62px 11px rgba(18, 17, 33, 0.87);
+        -moz-box-shadow: 0px 70px 62px 11px rgba(18, 17, 33, 0.87);
+        box-shadow: 0px 70px 62px 11px rgba(18, 17, 33, 0.87);
+    }
+
+    #main_container_1_txt_1 {
+        font-family: merriwet_bold;
+        color: white;
+    }
+
+    #main_container_1 {
+        display: flex;
+    }
+
+    #main_container_2 {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img_txt {
+        max-width: 320px;
+    }
+
+    .img_txt img {
+        width: 320px;
+        height: 200px;
+    }
+
+    .img_txt_bold {
+        font-family: merriwet_bold;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .img_txt_reg {
+        font-family: merriwet_regular;
+        color: #cfcfcf;
+        font-size: 12px;
+    }
+
+    #img_txt_reg_orange_1 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #img_txt_reg_orange_2 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #img_txt_reg_orange_3 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #img_txt_reg_orange_4 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #img_txt_reg_orange_5 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #img_txt_reg_orange_6 {
+        color: #f8a83d;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #main_container_3 {
+        display: flex;
+        margin-top: 100px;
+        height: 400px;
+    }
+
+    #main_container_3 img {
+        width: auto;
+        height: 400px;
+        margin-right: 20px;
+    }
+
+    #main_container_3_flex_2_in_1 {
+        margin-top: 20px;
+        font-family: merriwet_bold;
+        color: #f8a83d;
+    }
+
+    #main_container_3_flex_2_in_2 {
+        font-family: merriwet_regular;
+        font-size: 14px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    /* footer ---------------------*/
+    footer {
+        -webkit-box-shadow: 0px 66px 52px -21px rgba(18, 17, 33, 1) inset;
+        -moz-box-shadow: 0px 66px 52px -21px rgba(18, 17, 33, 1) inset;
+        box-shadow: 0px 66px 52px -21px rgba(18, 17, 33, 1) inset;
+        background: rgb(44, 43, 57);
+        background: linear-gradient(0deg, rgba(44, 43, 57, 1) 21%, rgba(95, 95, 107, 1) 52%, rgba(44, 43, 57, 1) 91%);
+        background-color: #cfcfcf;
+    }
+
+    #footer_icon_1 {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    #footer_icon_2 {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    #footer_icon_3 {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #footer_icon_2 {
+        margin: 0px 10px;
+    }
+
+    #footer_container_1 {
+        font-family: merriwet_regular;
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 40px 0;
+    }
+
+    #footer_icons {
+        margin: 20px;
+    }
+    #nav_flex_2_txt_1 {
+        cursor: pointer;
+    }
+    #nav_flex_2_txt_3 {
+        cursor: pointer;
+    }
+    #go_up_0 {
+        display: none;
+        position: fixed;
+        left: 1400px;
+        top: 700px;
+        z-index: 10;
+        cursor: pointer;
+    }
+}
