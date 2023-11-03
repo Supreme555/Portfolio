@@ -1,0 +1,65 @@
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        height: 100vh;
+        max-width: 100%;
+    }
+
+    header {
+        box-shadow: 0 1px 3px rgba(216, 209, 200, 0.7)
+    }
+
+    #header_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        padding: 0px 20px;
+    }
+
+    #header_container img {
+        height: 20px;
+    }
+
+    #header_container a {
+        color: #002c5f;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container_main {
+        width: 95%;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .container_main .id {
+        width: 30px;
+    }
+    .container_main span {
+        display: inline-block;
+        padding: 5px 0;
+    }
+    .container_main li:nth-child(2n+1) {
+        background-color: #f1f1f1;
+    }
+    .container_main li:nth-child(1) {
+        font-weight: bold;
+        background-color: rgb(78, 78, 78);
+        color: white;
+    }
+    .email {
+        width: 40%;
+    }
+    .choise {
+        width: 150px;
+    }
+}
